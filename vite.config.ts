@@ -8,6 +8,7 @@ import { format } from 'date-fns'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/onepagesales/',
   plugins: [
     react(),
     {
